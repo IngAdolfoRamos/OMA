@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PacientHomeActivity"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <TableRow android:background="#128675">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:padding="3dip"
+                        android:text="Nombre"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_column="1"
+                        android:padding="3dip"
+                        android:text="Profesion"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_column="1"
+                        android:padding="3dip"
+                        android:text="Fecha"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_column="1"
+                        android:padding="3dip"
+                        android:text="Estado"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_column="1"
+                        android:padding="3dip"
+                        android:text="Eduardo Pulido" />
+
+                    <TextView
+                        android:layout_column="1"
+                        android:gravity="left"
+                        android:padding="3dip"
+                        android:text="Masajista" />
+
+                    <TextView
+                        android:layout_column="1"
+                        android:gravity="left"
+                        android:padding="3dip"
+                        android:text="29-31-2021 17:45" />
+
+                    <TextView
+                        android:layout_column="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Agendada" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/newConsultationB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nueva consulta"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

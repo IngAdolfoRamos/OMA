@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">OMA</string>
+
+    <string-array name="fragments">
+        <item>Paciente</item>
+        <item>Profesionista</item>
+    </string-array>
+
+    <string-array name="professions">
+        <item>Lic. Enfermeria</item>
+        <item>Lic. Dental</item>
+        <item>Lic. Psicologia</item>
+    </string-array>
+
 </resources>
